@@ -34,7 +34,7 @@ def corr(lstx,lsty):
 
 #3
 
-df = pd.read_csv('BNG-Device.csv')
+df = pd.read_csv('Lab 7/BNG-Device.csv')
 
 ac = df['Active-Count'].tolist()
 cpu = df['CPU-Utilization'].tolist()
