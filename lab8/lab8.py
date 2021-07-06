@@ -15,11 +15,11 @@ plt.show()
 
 # #1B
 ans = 1-np.exp(-57*(1/60))
-print(f' Probability of the wait time for the next Covid-19 confirmed case to be less than or equal to 1 minute is {ans}')
+print(f'Probability of the wait time for the next Covid-19 confirmed case to be less than or equal to 1 minute is {ans}')
 
 #1C
 c=1-np.exp(-57*(2/60)) - 1+np.exp(-57*(1/60))
-print(f' Probability of the wait time for the next Covid-19 confirmed case to be between 1 minute and 2 minutes is {c}')
+print(f'Probability of the wait time for the next Covid-19 confirmed case to be between 1 minute and 2 minutes is {c}')
 
 #1D
 d=np.exp(-57*(2/60))
@@ -30,7 +30,7 @@ e=1-np.exp(-57*2*(2/60)) - 1+np.exp(-57*2*(1/60))
 print(f'probability of wait time for the next Covid-19 confirmed case to be between 1 minute and 2 minutes when the average number of cases per hour is doubled is {e}')
 
 #2A
-df = pd.read_csv("IC252_Lab8.csv")
+df = pd.read_csv("lab8/IC252_Lab8.csv")
 df.Status[df.Status=="Recovered"]=2
 df.Status[df.Status=="Hospitalized"]=1
 df.Status[df.Status=="Dead"]=3
