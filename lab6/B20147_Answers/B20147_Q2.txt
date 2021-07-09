@@ -1,0 +1,6 @@
+Q2) ii) The expected incubation period by excluding Wuhan residents is same as the pmf of the incubation
+        period without excluding it. This shows that much of the data of Wuhan residents is missing.
+   iii) There is not much similarity between first and second,third plots but we can see that there 
+        is slight similarity between the second and third graph in terms of spread of the graph.
+        The difference b/w H-O pmf for surviving and dead patients is that the surviving patients 
+        were taken early to the hospital as compared to the dead patients. 

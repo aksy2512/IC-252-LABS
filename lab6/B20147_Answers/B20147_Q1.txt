@@ -1,0 +1,10 @@
+Q1 i) The variance seems moderate . We can say that mainly the infected people are of age ranging
+      between 28 and 50.
+   ii) The expectation for recovered ages doesn't have much difference than the expectation of
+      infected ages but the the expectation for death ages is considerably high as compared to both.
+      We can say that people from all ages are recovering after observing its high variance value but
+      mostly the older people are expiring which shows that elderly aged people are at an higher risk 
+      than other ages.
+   iii) No,The PMFs are not identical though they have the same value of Expectation because the 
+        variance of an infected male patient is pretty much high as compared to that of a Female
+        infected patient.

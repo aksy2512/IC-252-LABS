@@ -62,8 +62,7 @@ for i in n:
 
 
 
-# plt.plot([i for i in range(1000)],ex)
-# plt.plot([i for i in range(1000)],n)
+
 #2b
 fig,axs = plt.subplots(2,3,figsize=(12,4))
 count, bins, ignored = axs[0][0].hist(uni[0], 200, density=True)
