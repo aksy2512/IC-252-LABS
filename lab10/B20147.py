@@ -15,7 +15,7 @@ def Q1():
      for k in y:
          if (j**2+k**2<=1):
              cnt=cnt+1
-  print(4*cnt/(s[i]*s[i]))
+  print( 'Value of pie for size =',s[i],'is',4*cnt/(s[i]*s[i]))
 
 #2
 def Q2():
@@ -27,22 +27,22 @@ def Q2():
   x = [round(i, 3) for i in x]
   y = [round(i, 3) for i in y]
   cnt =0
- for j in x:
+  for j in x:
      for k in y:
          if (k-2/(1+j*j)<=0):
              cnt=cnt+1
- print(2*cnt/(s[i]*s[i]))
+  print('Value of integral for size =',s[i],'is',2*cnt/(s[i]*s[i]))
 #3
 
-
-def f3(arr):
+def Q3():
+ def f3(arr):
     for i in range(len(arr)):
         if arr[i]==i:
             return 0
     return 1
 
-sizes = [100, 1000, 10000]
-for s in sizes:
+ sizes = [100, 1000, 10000]
+ for s in sizes:
     ans=0
     for i in range(10000):
         
@@ -57,3 +57,5 @@ for s in sizes:
     
 
     print("For n=", s, " Value of e is {:.5f}".format(10000/ans))
+
+Q3()
