@@ -33,24 +33,7 @@ def Q2():
              cnt=cnt+1
  print(2*cnt/(s[i]*s[i]))
 #3
-def countDer(n):
-     
-    
-    der = [0 for i in range(n + 1)]
-     
-    
-    der[1] = 0
-    der[2] = 1
-     
-    
-    for i in range(3, n + 1):
-        der[i] = (i - 1) * (der[i - 1] +
-                            der[i - 2])
-         
-    
-    return der[n]
 
-print(math.factorial(1000)/countDer(1000))
 
 def f3(arr):
     for i in range(len(arr)):
